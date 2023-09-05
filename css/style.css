@@ -1,0 +1,205 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+body{
+    background-color: purple;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo{
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.nav-bg{
+    background-color: black;
+}
+.black{
+    background-color: black;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+.roller{
+    width: auto;
+    display: flex;
+    background-color: rgb(26, 25, 25);
+    overflow-x:auto;
+    padding: 5px;
+    text-decoration: none;
+}
+.roller-items:hover{
+    background-color: rgb(123, 123, 123);
+}
+.roller::-webkit-scrollbar{
+    display: none;
+}
+.roller-items{
+    background-color: rgb(75, 75, 75);
+    color: white;
+    border-radius: 3px;
+    padding:5px 5px;
+    min-width: 120px;
+    text-align: center;
+    margin-right: 4px;
+
+}
+.links{
+    text-decoration: none;
+    color: white;
+}
+.links:hover{
+    color: white;
+}
+.row1{
+    width:
+}
+.content{
+    padding: 15px;
+}
+.petlover-images{
+    text-align: center;
+}
+.petlover-img{
+    width:100%;
+    height:400px;
+    border-radius: 10px;
+    object-fit: contain;  
+}
+.petlover-content{
+    text-align: center;
+    font-size: 30px;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    margin-left:65px;
+    margin-right:65px;
+    padding-top: 10px;
+}
+.dog-roller{
+    width: auto;
+    display: flex;
+    overflow-x:auto;
+    padding: 3px;
+    text-decoration: none;
+}
+.dog-items{
+    border-radius: 3px;
+    /* padding:5px 5px; */
+    min-width: 340px;
+    text-align: center;
+}
+.dog-roller::-webkit-scrollbar{
+    display: none;
+}
+/* .dog-card-bg{
+    color:white;
+    background-color:purple;
+} */
+.btn-sign{
+    background-color: green;
+    color: white;
+}
+.details-bg{
+    background-color:purple;
+}
+.details{
+    background-color:tomato;
+   
+}
+.home:hover{
+  background-color: green;
+  border:none;
+  border-radius: 5px;
+  color: rgb(145, 253, 145);
+}
+.btn-pink{
+    background-color:tomato;
+}
+/* footer */
+.footer-section{
+    width:auto;
+    background-color:purple; 
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px; 
+     
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h2{
+    color: purple;
+    text-decoration: underline;
+}
+.section{
+    align-items: center;
+}
+.bi-facebook{
+    color: rgba(67, 67, 245, 0.849);
+}
+.bi-whatsapp{
+    color: rgb(8, 235, 8);
+}
+.bi-twitter{
+    color:rgb(8, 172, 236);
+}
+.bi-instagram{
+    color:rgba(239, 57, 57, 0.747);
+}
+.bi-google{
+    color:rgb(7, 157, 250);
+}
+.bi-apple{
+    color: rgba(252, 241, 241, 0.927);
+}
+.bi-microsoft{
+    color:rgb(147, 236, 15)
+}
+.bi-cart{
+    color: rgba(246, 140, 11, 0.895);
+}
+.bi-flag-fill{
+    color:rgb(243, 73, 44);
+}
+.bi-emoji-smile{
+    color: rgb(234, 234, 21) ;
+}
+.bi-emoji-smile{
+    color: rgb(234, 234, 21);
+}
+.bi-geo-alt{
+    color: rgb(11, 177, 242) ;
+}
+.bi-person{
+   color:rgb(117, 117, 241);
+}
+.bi-envelope{
+   color:rgb(235, 73, 73);
+}
+.bi-telephone-fill{
+  color: rgb(14, 14, 164);
+}
+.bi-phone{
+   color:rgb(233, 58, 233);
+}
+.dog{
+    height: 200px;
+    object-fit: cover;
+}
+.cat{
+    height: 200px;
+    object-fit:contain; 
+}
+/* @media(max-width:576){
+    .dog-roller{
+        width: auto;
+    }
+    .row2{
+        width: auto;
+    }
+    .footer-section{
+        width: auto;
+    }
+} */
